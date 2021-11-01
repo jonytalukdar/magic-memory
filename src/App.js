@@ -29,7 +29,7 @@ function App() {
   };
 
   const handleCardChoice = (card) => {
-    console.log(card);
+    choiceOne ? setChoiceTwo(card) : setChoiceOne(card);
   };
 
   return (
